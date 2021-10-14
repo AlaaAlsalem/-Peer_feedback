@@ -92,6 +92,8 @@ function edit() {
       listArr.filter((obj, objIndex) => {
         if (inputindex === objIndex) {
           obj.description = input.value;
+          console.log(obj.description);
+
         }
         return false;
       });
